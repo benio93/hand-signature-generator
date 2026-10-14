@@ -22,6 +22,12 @@ W terminalu otwartym **w folderze projektu** zainstaluj lokalnie:
 python -m pip install .
 ```
 
+Możesz też zainstalować moduł bezpośrednio z GitHuba:
+
+```powershell
+python -m pip install git+https://github.com/benio93/hand-signature-generator.git
+```
+
 Potem w swoim pliku Python:
 
 ```python
