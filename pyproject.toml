@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "signature-playground-svg"
+version = "0.1.0"
+description = "Deterministic fictional handwritten signatures as SVG"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Signature Playground contributors" }]
+keywords = ["signature", "handwriting", "svg", "procedural"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+include = ["signature_playground*"]
